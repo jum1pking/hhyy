@@ -1,0 +1,157 @@
+/* CSS Document */
+* {
+	FONT-FAMILY:微软雅黑;
+}
+.resizeDivClass
+{
+	position:relative;
+	background-color:#DEDBD6;
+	width:2px;
+	z-index:1;
+	/*left:expression(this.parentElement.offsetWidth-1);*/
+	cursor:e-resize;
+
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:active {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline overline
+}
+A:link {
+	TEXT-DECORATION: none
+}
+.t {
+	LINE-HEIGHT: 1.4
+}
+BODY {
+	background-image:url("../images/indexbackground.jpg");
+	background-repeat:no-repeat;
+	background-position:100% 0;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-right: 50px;
+}
+
+TEXTAREA {
+	BACKGROUND-COLOR: #FFF; BORDER-BOTTOM-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #000000; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #000000; BORDER-TOP-WIDTH: 1px; FONT-FAMILY: ���� ; FONT-SIZE: 9pt
+}
+SELECT {
+	BACKGROUND-COLOR: #FFF; BORDER-BOTTOM-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #000000; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #000000; BORDER-TOP-WIDTH: 1px; FONT-FAMILY: ���� ; FONT-SIZE: 9pt
+}
+
+.gray {
+	CURSOR: pointer;
+	/*FILTER: gray;*/
+}
+.style3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+.TABLE_STYLE1{
+	border: 3px solid rgba(195 190 190 / 50%);
+	border-collapse: collapse;
+	width: 100%;
+
+}
+.TABLE_STYLE2{
+	width: 100%;
+}
+.ALL-STYLE{
+	border: 1px ridge #666666;
+	border-color:#DEDBD6;
+
+}
+.TR_STYLE1{
+
+}
+
+.style8 {color: #000066}
+
+
+
+.TD_HANDBOOK_STYLE1 {
+	vertical-align : top ;
+	width:100%;
+	color:#0000FF;
+}
+
+.TD_STYLE1{
+	background-color: rgba(111, 255, 205, 0.42);
+	border-width:1px;
+}
+
+.TD_STYLE2{
+	border-spacing: 1px;
+	background:transparent;
+	border-color:#DEDBD6;
+	border:0;
+}
+.TD_STYLE3{
+
+}
+
+.BUTTON_STYLE1{
+	cursor:pointer;
+	margin-top: 10px;
+	color: white;
+	margin-right: 5px;
+	width: 100px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: #1e68dc;
+	border: 0px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.RADIO_STYLE1{
+
+}
+.CHECKBOX_STYLE1{
+
+}
+.SELECT_STYLE1{
+	width:100%;
+}
+.SELECT_STYLE2{
+	width:30%;
+}
+.TEXTAREA_STYLE1{
+	width:100%;
+}
+.DIV_STYLE1{
+
+	float :right ;
+	vertical-align : top ;
+
+}
+.DIV_STYLE2{
+	vertical-align : top ;
+
+}
+.INPUT_STYLE1{
+	BACKGROUND-COLOR: #FFF;
+	width:30%
+}
+.INPUT_STYLE2{
+	BACKGROUND-COLOR: #FFF;
+	width:100%
+}
+.toast{
+	position: fixed;
+	top: 60%;
+	left: 48%;
+	padding: 8px 14px;
+	background-color: rgba(69, 69, 72, 0.62);
+	line-height: 60%;
+	border-radius: 4px;
+	color: #fff;
+	z-index: 99999;
+	font-size: 14px;
+	display: none;
+}
+
